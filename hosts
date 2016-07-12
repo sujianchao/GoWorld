@@ -1,15 +1,15 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-7-10
+# Update :   2016-7-12
 127.0.0.1         localhost
 ::1               localhost
 # Box start
-74.112.184.90     box.com
 74.112.184.85     m.box.com
-74.112.184.85     www.box.com
 74.112.184.70     app.box.com
-74.112.184.80     www.box.net
-104.218.203.34    support.box.com
+#74.112.184.90    box.com
+#74.112.184.85    www.box.com
+#74.112.184.80    www.box.net
+#104.218.203.34   support.box.com
 # Box end
 # AWS start
 54.231.81.99      s3.amazonaws.com
@@ -17,7 +17,6 @@
 54.231.72.115     github-cloud.s3.amazonaws.com
 54.231.243.162    s3-ap-southeast-1.amazonaws.com
 54.231.252.66     s3-ap-southeast-2.amazonaws.com
-54.231.11.136     github-windows.s3.amazonaws.com
 # AWS end
 # Apkpure start
 108.163.178.42    apkpure.com
@@ -29,8 +28,9 @@
 108.163.178.42    download.apkpure.com
 # Apkpure end
 # Archive start
-218.254.1.13      archive.org     #下载请使用Dnsmasq泛解析
+218.254.1.13      archive.org
 218.254.1.13      web.archive.org
+218.254.1.13      www.archive.org
 218.254.1.13      analytics.archive.org
 # Archive end
 # SoundCloud start
@@ -60,7 +60,8 @@
 68.232.44.96      w1.sndcdn.com
 68.232.44.96      w2.sndcdn.com
 68.232.44.96      ec-preview-media.sndcdn.com
-54.192.148.12     cf-media.sndcdn.com
+#54.230.255.148   cf-media.sndcdn.com
+#54.230.255.148   cf-hls-media.sndcdn.com
 68.232.45.77      ec-media.sndcdn.com
 68.232.45.67      ec-media.soundcloud.com
 68.232.46.220     ec-rtmp-media.soundcloud.com
@@ -139,12 +140,12 @@
 103.245.222.193   i.imgur.com
 # Imgur end
 # MEGA start
-154.53.224.158    mega.nz
-154.53.224.118    mega.co.nz
-31.216.147.156    w.api.mega.co.nz
-31.216.147.133    eu.api.mega.co.nz
 117.18.237.188    g.cdn1.mega.co.nz
-154.53.224.134    eu.static.mega.co.nz
+#154.53.224.158   mega.nz
+#154.53.224.118   mega.co.nz
+#31.216.147.156   w.api.mega.co.nz
+#31.216.147.133   eu.api.mega.co.nz
+#154.53.224.134   eu.static.mega.co.nz
 # MEGA end
 # FlipBoard start
 54.236.138.115    beacon.flipboard.com
@@ -200,12 +201,6 @@
 151.101.100.133   avatars1.githubusercontent.com
 151.101.100.133   avatars2.githubusercontent.com
 151.101.100.133   avatars3.githubusercontent.com
-151.101.100.133   avatars4.githubusercontent.com
-151.101.100.133   avatars5.githubusercontent.com
-151.101.100.133   avatars6.githubusercontent.com
-151.101.100.133   avatars7.githubusercontent.com
-151.101.100.133   avatars8.githubusercontent.com
-151.101.100.133   avatars9.githubusercontent.com
 # Github end
 # Facebook start
 31.13.95.17       m.me
@@ -733,22 +728,22 @@
 106.10.137.23     farm7.staticflickr.com
 106.10.137.23     farm8.staticflickr.com
 106.10.137.23     farm9.staticflickr.com
-27.123.51.89      p1.staticflickr.com
-27.123.51.89      p2.staticflickr.com
-27.123.51.89      p3.staticflickr.com
-27.123.51.89      p4.staticflickr.com
-27.123.51.89      p5.staticflickr.com
-27.123.51.89      p6.staticflickr.com
-27.123.51.89      p7.staticflickr.com
-27.123.51.89      p8.staticflickr.com
-27.123.51.89      c1.staticflickr.com
-27.123.51.89      c2.staticflickr.com
-27.123.51.89      c3.staticflickr.com
-27.123.51.89      c4.staticflickr.com
-27.123.51.89      c5.staticflickr.com
-27.123.51.89      c6.staticflickr.com
-27.123.51.89      c7.staticflickr.com
-27.123.51.89      c8.staticflickr.com
+#27.123.51.89     p1.staticflickr.com
+#27.123.51.89     p2.staticflickr.com
+#27.123.51.89     p3.staticflickr.com
+#27.123.51.89     p4.staticflickr.com
+#27.123.51.89     p5.staticflickr.com
+#27.123.51.89     p6.staticflickr.com
+#27.123.51.89     p7.staticflickr.com
+#27.123.51.89     p8.staticflickr.com
+#27.123.51.89     c1.staticflickr.com
+#27.123.51.89     c2.staticflickr.com
+#27.123.51.89     c3.staticflickr.com
+#27.123.51.89     c4.staticflickr.com
+#27.123.51.89     c5.staticflickr.com
+#27.123.51.89     c6.staticflickr.com
+#27.123.51.89     c7.staticflickr.com
+#27.123.51.89     c8.staticflickr.com
 192.0.79.32       code.flickr.com
 66.6.41.30        tumblr.com
 66.6.41.23        api.tumblr.com
@@ -2005,6 +2000,7 @@
 223.255.227.170   scholar.google.com
 223.255.227.170   toolbar.google.com
 223.255.227.170   translate.google.com
+223.255.227.170   santatracker.google.com
 223.255.227.170   video.google.com
 223.255.227.170   wenda.google.com
 223.255.227.170   books.google.com
@@ -2361,6 +2357,7 @@
 223.255.227.170   developer.google.com
 223.255.227.170   developers.google.com
 223.255.227.170   cla.developers.google.com
+223.255.227.170   console.developer.google.com
 223.255.227.170   source.developers.google.com
 223.255.227.170   console.developers.google.com
 223.255.227.170   cloudssh.developers.google.com
@@ -2414,6 +2411,7 @@
 223.255.227.170   alt2-safebrowsing.google.com
 223.255.227.170   alt3-safebrowsing.google.com
 223.255.227.170   people-pa.clients6.google.com
+223.255.227.170   beyond-pa.clients6.google.com
 223.255.227.170   cello.client-channel.google.com
 223.255.227.170   safebrowsing.clients.google.com
 223.255.227.170   uploads.stage.gdata.youtube.com
@@ -2616,9 +2614,11 @@
 223.255.227.170   similar-images.googlelabs.com
 223.255.227.170   storegadget.googlelabs.com
 223.255.227.170   swiffy.googlelabs.com
+223.255.227.170   gstatic.com
 223.255.227.170   www.gstatic.com
 223.255.227.170   maps.gstatic.com
 223.255.227.170   ssl.gstatic.com
+223.255.227.170   accounts.gstatic.com
 223.255.227.170   g0.gstatic.com
 223.255.227.170   g1.gstatic.com
 223.255.227.170   g2.gstatic.com
@@ -2815,8 +2815,10 @@
 223.255.227.170   surfproxy2.appspot.com
 223.255.227.170   proxy-4-web.appspot.com
 223.255.227.170   entstatic.appspot.com
+223.255.227.170   santa-api.appspot.com
 223.255.227.170   chromium-build.appspot.com
 223.255.227.170   virustotalcloud.appspot.com
+223.255.227.170   ld-social-stats.appspot.com
 223.255.227.170   blockly-games.appspot.com
 223.255.227.170   buildwithchrome.appspot.com
 223.255.227.170   feelinsonice-hrd.appspot.com
@@ -2925,6 +2927,7 @@
 223.255.227.170   ajax.googleapis.com
 223.255.227.170   maps.googleapis.com
 223.255.227.170   chart.googleapis.com
+223.255.227.170   youtubei.googleapis.com
 223.255.227.170   youtube.googleapis.com
 223.255.227.170   android.googleapis.com
 223.255.227.170   firebase.googleapis.com
@@ -3005,6 +3008,17 @@
 223.255.227.170   2-ps.googleusercontent.com
 223.255.227.170   3-ps.googleusercontent.com
 223.255.227.170   4-ps.googleusercontent.com
+223.255.227.170   mua.googleusercontent.com
+223.255.227.170   mua0.googleusercontent.com
+223.255.227.170   mua1.googleusercontent.com
+223.255.227.170   mua2.googleusercontent.com
+223.255.227.170   mua3.googleusercontent.com
+223.255.227.170   mua4.googleusercontent.com
+223.255.227.170   mua5.googleusercontent.com
+223.255.227.170   mua6.googleusercontent.com
+223.255.227.170   mua7.googleusercontent.com
+223.255.227.170   mua8.googleusercontent.com
+223.255.227.170   mua9.googleusercontent.com
 223.255.227.170   music.googleusercontent.com
 223.255.227.170   books.googleusercontent.com
 223.255.227.170   producer.googleusercontent.com
@@ -4227,17 +4241,20 @@
 74.125.28.121     www.waveprotocol.org
 74.125.28.121     tensorflow.org
 74.125.28.121     www.tensorflow.org
+74.125.28.121     blog.google.org
 74.125.28.121     bugs.chromium.org
 74.125.28.121     blog.webmproject.org
 74.125.28.121     lists.webmproject.org
 74.125.28.121     www.android-x86.org
 74.125.28.121     docs.android-x86.org
 74.125.28.121     calendar.android-x86.org
+74.125.28.121     www.textcube.com
 74.125.28.121     www.html5rocks.com
 74.125.28.121     studio.html5rocks.com
 74.125.28.121     slides.html5rocks.com
 74.125.28.121     updates.html5rocks.com
 74.125.28.121     playground.html5rocks.com
+74.125.28.121     www.creativelab5.com
 74.125.28.121     www.agoogleaday.com
 74.125.28.121     www.nianticlabs.com
 74.125.28.121     edu.googleapps.com
@@ -4944,6 +4961,7 @@
 199.47.217.36     api-content.dropbox.com
 108.160.172.207   photos.dropbox.com
 162.125.34.129    bolt.dropbox.com
+162.125.17.129    photos-thumb.dropbox.com
 162.125.17.129    photos-thumb.x.dropbox.com
 199.47.217.97     block.dropbox.com
 199.47.217.97     block.v.dropbox.com
