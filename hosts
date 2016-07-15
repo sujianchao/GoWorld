@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-7-12
+# Update :   2016-7-16
 127.0.0.1         localhost
 ::1               localhost
 # Box start
@@ -185,7 +185,7 @@
 #192.30.253.125   live.github.com
 #192.30.253.121   codeload.github.com
 #192.30.253.120   nodeload.github.com
-192.30.252.141    gist.github.com
+192.30.253.118    gist.github.com
 151.101.100.133   raw.github.com
 151.101.100.133   help.github.com
 151.101.100.133   pages.github.com
@@ -1885,7 +1885,6 @@
 223.255.227.170   chromium.org
 223.255.227.170   golang.org
 223.255.227.170   www.golang.org
-223.255.227.170   blog.google.org
 223.255.227.170   domains.google
 223.255.227.170   schema.org
 223.255.227.170   www.schema.org
@@ -2027,6 +2026,7 @@
 223.255.227.170   appengine.google.com
 223.255.227.170   home.google.com
 223.255.227.170   get.google.com
+223.255.227.170   cast.google.com
 223.255.227.170   spaces.google.com
 223.255.227.170   takeout.google.com
 223.255.227.170   wallet.google.com
@@ -2066,11 +2066,6 @@
 223.255.227.170   script.google.com
 223.255.227.170   sb-ssl.google.com
 223.255.227.170   support.google.com
-223.255.227.170   tbn0.google.com
-223.255.227.170   tbn1.google.com
-223.255.227.170   tbn2.google.com
-223.255.227.170   tbn3.google.com
-223.255.227.170   trends.google.com
 223.255.227.170   upload.docs.google.com
 223.255.227.170   wifi.google.com
 223.255.227.170   writely.google.com
@@ -2090,19 +2085,26 @@
 223.255.227.170   dir.google.com
 223.255.227.170   bpui0.google.com
 223.255.227.170   firebase.google.com
+223.255.227.170   console.firebase.google.com
 223.255.227.170   directory.google.com
 223.255.227.170   health.google.com
 223.255.227.170   admin.google.com
+223.255.227.170   tbn0.google.com
+223.255.227.170   tbn1.google.com
+223.255.227.170   tbn2.google.com
+223.255.227.170   tbn3.google.com
 223.255.227.170   tbn4.google.com
 223.255.227.170   tbn5.google.com
 223.255.227.170   tbn6.google.com
 223.255.227.170   knol.google.com
-223.255.227.170   www.googlestore.com
 223.255.227.170   rtmp0.google.com
 223.255.227.170   trends.google.com
 223.255.227.170   wave0.google.com
 223.255.227.170   wave1.google.com
-223.255.227.170   googlewave.com
+223.255.227.170   yp.google.com
+223.255.227.170   gwt.google.com
+223.255.227.170   nexus.google.com
+223.255.227.170   adsense.google.com
 223.255.227.170   adwords.google.com
 223.255.227.170   material.google.com
 223.255.227.170   gg.google.com
@@ -2412,6 +2414,7 @@
 223.255.227.170   alt3-safebrowsing.google.com
 223.255.227.170   people-pa.clients6.google.com
 223.255.227.170   beyond-pa.clients6.google.com
+223.255.227.170   mobilesdk-pa.clients6.google.com
 223.255.227.170   cello.client-channel.google.com
 223.255.227.170   safebrowsing.clients.google.com
 223.255.227.170   uploads.stage.gdata.youtube.com
@@ -2502,10 +2505,13 @@
 223.255.227.170   chrome.com
 223.255.227.170   www.chrome.com
 223.255.227.170   developer.chrome.com
+223.255.227.170   googlestore.com
+223.255.227.170   www.googlestore.com
 223.255.227.170   gmail.com
 223.255.227.170   m.gmail.com
 223.255.227.170   www.gmail.com
 223.255.227.170   m.googlemail.com
+223.255.227.170   googlewave.com
 223.255.227.170   android.com
 223.255.227.170   dev.android.com
 223.255.227.170   www.android.com
@@ -2728,6 +2734,7 @@
 223.255.227.170   hkstockinvestment.blogspot.com
 223.255.227.170   pyfound.blogspot.com
 223.255.227.170   gearsblog.blogspot.com
+223.255.227.170   fanqiangba.blogspot.com
 223.255.227.170   cnanonymous.blogspot.com
 223.255.227.170   emeadev.blogspot.com
 223.255.227.170   insidesearch.blogspot.com
@@ -2795,11 +2802,18 @@
 223.255.227.170   googlesource.com
 223.255.227.170   www.googlesource.com
 223.255.227.170   go.googlesource.com
+223.255.227.170   gnu.googlesource.com
 223.255.227.170   gwt.googlesource.com
 223.255.227.170   skia.googlesource.com
+223.255.227.170   weave.googlesource.com
 223.255.227.170   gerrit.googlesource.com
 223.255.227.170   chromium.googlesource.com
 223.255.227.170   kernel.googlesource.com
+223.255.227.170   pdfium.googlesource.com
+223.255.227.170   aomedia.googlesource.com
+223.255.227.170   ganeti.googlesource.com
+223.255.227.170   vanadium.googlesource.com
+223.255.227.170   swiftshader.googlesource.com
 223.255.227.170   boringssl.googlesource.com
 223.255.227.170   android.googlesource.com
 223.255.227.170   gerrit-review.googlesource.com
@@ -2816,6 +2830,7 @@
 223.255.227.170   proxy-4-web.appspot.com
 223.255.227.170   entstatic.appspot.com
 223.255.227.170   santa-api.appspot.com
+223.255.227.170   codesite-archive.appspot.com
 223.255.227.170   chromium-build.appspot.com
 223.255.227.170   virustotalcloud.appspot.com
 223.255.227.170   ld-social-stats.appspot.com
